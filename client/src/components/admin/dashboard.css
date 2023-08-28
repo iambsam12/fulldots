@@ -1,0 +1,42 @@
+.dash-row{
+    width: 100%;
+}
+.dash-nav{
+    height:auto;
+    background-color: black;
+}
+.dash-screen{
+    height: 85vh;
+    background-color: #ccc;
+}
+.allthings{
+    display: flex;
+    justify-content: space-around;
+}
+.event-block{
+    height: 120px;
+    width: 240px;
+    margin-top: 50px;
+    margin-left: 50px;
+    background-color: #272c4a;
+    display: flex;
+    position: relative;
+   
+}
+.event-block .tenp{
+    color: #fff;
+    font-size: 25px;
+   padding-top: 25px;
+   padding-left: 20px;
+    font-weight: bold;
+}
+.icon p{
+    font-size: 35px;
+    font-weight: 700;
+    color: #ccc;
+    position: absolute;
+    right: 10%;
+    top: 30%;
+
+}
+

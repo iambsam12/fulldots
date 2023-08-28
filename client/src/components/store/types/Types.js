@@ -1,0 +1,17 @@
+export const CREATE_ERRORS = "CREATE_ERRORS";
+export const REMOVE_ERRORS = "REMOVE_ERRORS";
+export const SET_LOADER = "SET_LOADER";
+export const CLOSE_LOADER = "CLOSE_LOADER";
+export const REDIRECT_TRUE = "REDIRECT_TURE";
+export const REDIRECT_FALSE = "REDIRECT_FALSE";
+export const SET_MESSAGE = "SET_MESSAGE";
+export const REMOVE_MESSAGE = "REMOVE_MESSAGE";
+export const SET_NEWS = " SET_NEWS";
+export const SET_NEW = " SET_NEW";
+export const SET_DETAILS = " SET_DETAILS";
+export const NEWS_RESET = " NEWS_RESET";
+export const NEWS_REQUEST = " NEWS_REQUEST";
+export const SET_UPDATE_ERRORS = " SET_UPDATE_ERRORS";
+export const RESET_UPDATE_ERRORS = " RESET_UPDATE_ERRORS";
+export const UPDATE_IMAGE_ERRORS = " UPDATE_IMAGE_ERRORS";
+export const RESET_UPDATE_IMAGE_ERRORS = " RESET_UPDATE_IMAGE_ERRORS";

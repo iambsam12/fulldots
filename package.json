@@ -1,0 +1,33 @@
+{
+  "name": "dots",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "server": "nodemon server",
+    "start": "nodemon server.js",
+    "client": "npm run start --prefix client",
+    "dots": "concurrently \"npm run server\" \"cd client && npm start\""
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt": "^5.0.1",
+    "body-parser": "^1.19.1",
+    "concurrently": "^6.3.0",
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.1",
+    "express": "^4.17.1",
+    "express-validator": "^6.14.1",
+    "formidable": "^1.2.6",
+    "fs": "^0.0.1-security",
+    "html-to-text": "^8.2.0",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^6.3.8",
+    "nodemon": "^2.0.15",
+    "slugify": "^1.6.5",
+    "uniqid": "^5.4.0",
+    "uniqueid": "^1.0.0",
+    "uuid": "^8.3.2"
+  }
+}

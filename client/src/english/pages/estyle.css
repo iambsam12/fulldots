@@ -1,0 +1,121 @@
+.objectives,.introduction,.newks {
+  background-color: #f2f2f2;
+}
+.objectives h2,.news-and-works h2{
+    font-weight: bold;
+}
+.objectives h2 span,.news-and-works h2 span{
+    border-bottom: 3px solid green;
+}
+.news-side{
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.parikalpana .p-title{
+  font-weight: 600;
+}
+.parikalpana .p-dis{
+  font-size: 16px;
+} 
+
+.objectives p,.about-us p{
+  text-align: justify;
+}
+.about-us h2{
+    font-weight: bold;
+}
+.about-us h2 span{
+    border-bottom: 3px solid green;
+}
+.introduction h2{
+    font-weight: bold;
+    color: #000;
+}
+.introduction h2 span{
+    border-bottom: 3px solid green;
+}
+.introduction p{
+    text-align: justify;
+    color: #000;
+    font-weight: 500;
+    font-size: 16px;
+}
+
+.introduction{
+  background-color: #f2f2f2;
+  /* background:url('../img/back-img.jpg') no-repeat ; */
+  background-size: cover;
+}
+
+  .slick-slider {
+      margin: 30px auto 50px;
+      width: auto;
+  }
+  
+  
+  .card {
+    padding: 8px;
+    position: relative;
+    margin: 15px;
+    box-shadow: 0 2px 3px 0 rgba(0,0,0,0.25);
+    border-top: 6px solid #D8D8D8;
+    transition: all 0.3s ease-in-out;
+    z-index: 1;
+  }
+  
+  .slick-prev {
+    background: black;
+  }
+  
+  .slick-next {
+    background: black;
+  }
+  .slick-dots li {
+    margin: 0 16px;
+  }
+  .slick-dots li button:before {
+    content: " ";
+    background: #D8D8D8;
+    opacity: 1;
+    height: 4px;
+    width: 40px;
+  }
+  .slick-dots li.slick-active button:before {
+    content: " ";
+    background: #0080AD;
+    opacity: 1;
+    height: 4px;
+    width: 40px;
+  }
+  .carousel h5{
+      font-weight: 600;
+      font-size: 19px;
+      padding-top: 5px;
+  }
+
+  .read-more{
+    text-align: center;
+    padding: 5px 0px 7px 0px;
+}
+.read-more button{
+    width: 120px;
+    border: none;
+    padding: 4px;
+    font-size: 18px;
+    background-color:#6f3787 ;
+    color: #fff;
+  }
+
+  /* our works */
+
+  .our_works p{
+    text-align: justify;
+  }
+.our_works h3{
+  font-size: 30px;
+  font-weight: bold;
+  padding-bottom: 10px;
+}
+.our_works h3 span{
+  border-bottom: 2px solid green;
+}

@@ -1,0 +1,27 @@
+.notFound__container{
+    text-align: center;
+    padding-top: 200px;
+    font-size: 20px;
+}
+
+#plink{
+    text-decoration: none;
+    color: #fff;
+}
+#pangn{
+    font-size: 20px;
+    color: #fff;
+    width: 40px;
+    padding-top: 5px;
+    text-align: center;
+    background-color: rgb(11, 11, 146);
+    height: 40px;
+    border-right: 1px solid #fff;
+}
+.page_link p{
+    height: 40px;
+    font-size: 20px;
+    background-color: rgb(134, 1, 1);
+    padding: 2px 5px;
+    color: #fff;
+}

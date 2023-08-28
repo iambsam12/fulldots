@@ -1,0 +1,29 @@
+.login {
+  height: 100vh;
+  background-color: rgba(7, 7, 99, 0.945);
+}
+.login-section {
+  padding-top: 150px;
+  height: 100vh;
+  background: url("../../img/cover.jpg") no-repeat;
+  background-size: cover;
+  opacity: 0.7;
+}
+.login-form {
+  background-color: #fff;
+  padding: 50px;
+}
+.form-control:focus {
+  color: #212529;
+  background-color: #fff;
+  border-color: none;
+  outline: 0;
+  box-shadow: none;
+}
+.login-form button {
+  background-color: brown;
+  color: #fff;
+  font-size: 19px;
+  padding: 4px 20px;
+  border: none;
+}

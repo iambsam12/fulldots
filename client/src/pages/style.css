@@ -1,0 +1,329 @@
+.objectives,
+.introduction,
+.newks {
+  background-color: #f2f2f2;
+}
+.objectives h2,
+.news-and-works h2 {
+  font-weight: bold;
+}
+.objectives h2 span,
+.news-and-works h2 span {
+  border-bottom: 3px solid green;
+}
+
+.parikalpana .p-title {
+  font-weight: 600;
+}
+.parikalpana .p-title span {
+  border-bottom: 2px solid green;
+}
+.parikalpana .p-dis {
+  font-size: 16px;
+}
+.objectives p,
+.about-us p {
+  text-align: justify;
+}
+.aimage {
+  cursor: pointer;
+  padding: 10px;
+  transition: all 0.5s ease-in-out;
+  background-color: #fff;
+  border: 3px solid #fff;
+  box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px,
+    rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+}
+.aimage:hover {
+  transform: scale(1.05);
+}
+.about-us h2 {
+  font-weight: bold;
+}
+.about-us h2 span {
+  border-bottom: 3px solid green;
+}
+.see-more button {
+  background: #a50e58;
+  color: #fff;
+  border: none;
+  font-size: 17px;
+  width: 140px;
+  font-weight: 550;
+  padding: 11px 15px;
+  position: relative;
+  margin-top: -5px;
+  z-index: 1;
+  overflow: hidden;
+  cursor: pointer;
+}
+
+.see-more button::after {
+  content: "";
+  background: #6f3787;
+  position: absolute;
+  z-index: -1;
+  padding: 0.85em 0.75em;
+  display: block;
+}
+.see-more button[class^="slide"]::after {
+  transition: all 0.35s;
+}
+.see-more button[class^="slide"]:hover::after {
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  transition: all 0.35s;
+}
+.see-more button.slide_from_left::after {
+  top: 0;
+  bottom: 0;
+  left: -100%;
+  right: 100%;
+}
+
+.introduction h2 {
+  font-weight: bold;
+  color: #000;
+}
+.introsee {
+  width: 120px;
+  border: none;
+  padding: 4px;
+  font-size: 18px;
+  background-color: #6f3787;
+  color: #fff;
+}
+.introduction h2 span {
+  border-bottom: 3px solid green;
+}
+.introduction p {
+  text-align: justify;
+  color: #000;
+  font-weight: 500;
+  font-size: 16px;
+}
+
+.introduction {
+  background-color: #f2f2f2;
+  /* background:url('../img/back-img.jpg') no-repeat ; */
+  background-size: cover;
+}
+
+.slick-slider {
+  margin: 30px auto 50px;
+  width: auto;
+}
+
+.card {
+  padding: 8px;
+  position: relative;
+  margin: 15px;
+  box-shadow: 0 2px 3px 0 rgba(0, 0, 0, 0.25);
+  border-top: 6px solid #d8d8d8;
+  transition: all 0.3s ease-in-out;
+  z-index: 1;
+}
+
+.slick-prev {
+  background: black;
+}
+
+.slick-next {
+  background: black;
+}
+.slick-dots li {
+  margin: 0 16px;
+}
+.slick-dots li button:before {
+  content: " ";
+  background: #d8d8d8;
+  opacity: 1;
+  height: 4px;
+  width: 40px;
+}
+.slick-dots li.slick-active button:before {
+  content: " ";
+  background: #0080ad;
+  opacity: 1;
+  height: 4px;
+  width: 40px;
+}
+.carousel h5 {
+  font-weight: 600;
+  font-size: 19px;
+  padding-top: 5px;
+}
+
+.read-more {
+  text-align: center;
+  padding: 5px 0px 7px 0px;
+}
+
+/* our works */
+
+.our_works .works {
+  width: 95%;
+  margin: auto;
+}
+.our_works .works h2 {
+  font-weight: bold;
+}
+.our_works .works h2 span {
+  border-bottom: 4px solid green;
+}
+.our_works p {
+  text-align: justify;
+}
+.our_works h3 {
+  font-size: 25px;
+  font-weight: bold;
+  padding-bottom: 10px;
+}
+.our_works h3 span {
+  border-bottom: 2px solid green;
+}
+
+/* news sectiion */
+
+.news-sec-head h2 {
+  font-weight: bold;
+}
+.news-sec-head h2 span {
+  border-bottom: 4px solid green;
+}
+.fnews {
+  border-right: 2px solid #ccc;
+}
+.other-news h5 {
+  text-align: justify;
+}
+.recent-news h5 {
+  padding: 20px;
+  border-bottom: 3px solid #ccc;
+}
+.latest-news-head {
+  background-color: #6f3787;
+  width: 200px;
+  padding: 4px 0px 2px 0px;
+}
+.latest-news-head h3 {
+  color: #fff;
+}
+
+/* download */
+
+.download-button button {
+  outline: none;
+  border: none;
+  background-color: #6f3787;
+  color: #fff;
+  margin: 20px 20px 0px 20px;
+}
+
+/* partners */
+.all_partner .govpart {
+  font-size: 20px;
+  font-weight: bold;
+}
+.all_partner .govpart p span {
+  border-bottom: 3px solid green;
+}
+.government_partners {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+.government_partners .partner {
+  height: auto;
+  width: 190px;
+  text-align: center;
+  margin: 0px 10px;
+}
+.government_partners .partner img {
+  height: 150px;
+  width: 170px;
+}
+.government_partners .partner p {
+  padding: 10px 0px 10px 0px;
+}
+
+#ReactGridGallery {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+.ReactGridGallery_tile-viewport {
+  width: 250px !important;
+}
+.ReactGridGallery_tile-viewport img {
+  width: 250px !important;
+  border: 3px solid #6f3787;
+}
+
+.news-side {
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+/* about update */
+.sang {
+  border: 2px solid #6f3787;
+  margin: 50px 0px;
+}
+.works .cimage,
+.works .ccontent {
+  width: 50%;
+  margin: auto;
+}
+.works .cimage {
+  /* background-color: red; */
+  margin: 10px 10px;
+  /* background-color: green; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.works .ccontent {
+  /* background-color: green; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 10px 10px;
+}
+.our_works .left {
+  display: flex;
+  flex-direction: row-reverse;
+  gap: 10px;
+  margin-top: 30px;
+  border-top: 2px solid #a50e58;
+  padding: 30px 0px;
+}
+.our_works .right {
+  display: flex;
+  gap: 10px;
+  margin-top: 30px;
+  border-top: 2px solid #a50e58;
+  padding: 30px 0px;
+}
+
+@media screen and (max-width: 940px) {
+  .our_works .left {
+    flex-direction: column;
+  }
+  .our_works .right {
+    flex-direction: column;
+  }
+  .works .cimage,
+  .works .ccontent {
+    width: 80%;
+    margin: auto;
+  }
+}
+
+@media screen and (max-width: 540px) {
+  .works .cimage,
+  .works .ccontent {
+    width: 95%;
+    margin: auto;
+  }
+}
